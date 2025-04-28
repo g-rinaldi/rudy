@@ -6,7 +6,9 @@ This repository contains a modernized version of Rudy. While preserving the orig
 
 ## History and Availability
 
-The original CWEB version was freely distributed via Christoph Helmberg's homepage ([rudy](https://www-user.tu-chemnitz.de/~helmberg/rudy.tar.gz)) and Yinyu Ye maintains another version within the [Gset](https://web.stanford.edu/~yyye/yyye/Gset) collection. This repository provides an updated, more readily compilable version using standard C/C++ compilers.
+The original CWEB version was freely distributed via Christoph Helmberg's homepage ([rudy](https://www-user.tu-chemnitz.de/~helmberg/rudy.tar.gz)). A copy of that version is mantained by Yinyu Ye within his [Gset](https://web.stanford.edu/~yyye/yyye/Gset) collection.
+
+This repository provides an updated, more readily compilable version using standard C/C++ compilers.
 
 ## Key Features
 
@@ -48,7 +50,7 @@ If you use this software in your research, please cite it using the following Bi
     - gb_rand.[w,c,h]
     - gb_types.w
 
-    The *.c and the .h files are obtained from the corresponding *.w files via the CWEB compiler `ctangle`. They are kept in the directory specifically to ensure that the code can be compiled in cases where `ctangle` is not installed.    
+    The *.c and the .h files are obtained from the corresponding *.w files via the CWEB compiler `ctangle`. They are kept in the directory to ensure that the code can be compiled also in cases where `ctangle` is not installed.    
 
 ## Prerequisites
 
@@ -58,7 +60,7 @@ To build this project, you will need:
 2.  A C++ compiler (e.g., `g++`)
 3.  The `make` utility
 
-The necessary C source files (`*.c`) and the main C++ source file (`rudy.cpp`) should be present in the root directory of this repository.
+The necessary C source files (`*.c`) and the main C++ source file (`rudy.cpp`) should be present in the root and in the sgb directory of this repository.
 
 ## Building
 
